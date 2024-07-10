@@ -60,6 +60,7 @@ int main()
         ss << "Score: " << score << " Lives: " << lives;
         hud.setString(ss.str());
 
+
         window.clear();
         window.draw(hud);
         window.draw(bat.getShape());
